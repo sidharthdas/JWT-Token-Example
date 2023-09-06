@@ -22,7 +22,7 @@ Dependency Required :
 		</dependency>
 ```
 
-To generate token:
+To Generate Token:
 ```
 private final Key secretKey = Keys.secretKeyFor(SignatureAlgorithm.HS512);
     private static final long EXPIRATION_TIME = 600000; // 1 MIN
@@ -40,7 +40,7 @@ private final Key secretKey = Keys.secretKeyFor(SignatureAlgorithm.HS512);
     }
 ```
 
-To validate Token:
+To Validate Token:
 ```
 public String validateToken(String token) {
         try {
