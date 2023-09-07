@@ -58,3 +58,8 @@ public String validateToken(String token) {
         }
     }
 ```
+
+
+Jackson:
+
+```@JsonInclude(JsonInclude.Include.NON_NULL)``` Can be used both at class level and attribute level. If any field will be null, that field will not be shown in the response
